@@ -1,0 +1,17 @@
+h2,
+ul.nav-bar,
+ul.social-icons{
+    display: flex;
+}
+
+ul.nav-bar{
+    flex-direction: column;   
+}
+
+ul.social-icons{
+    justify-content: space-between;
+}
+
+h2{
+    justify-content: center;
+}

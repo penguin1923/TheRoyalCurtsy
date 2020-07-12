@@ -1,0 +1,21 @@
+#main-grid{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "h2 h2 h2"
+        "nav . ."
+        "nav . ."
+        "footer footer footer";
+}
+
+h2{
+    grid-area: h2;
+}
+
+nav{
+    grid-area: nav;
+}
+
+footer{
+    grid-area: footer;
+}
