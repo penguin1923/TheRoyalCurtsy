@@ -21,7 +21,6 @@ h1{
 ul.nav-bar{
     color:red;
     font-size: 200%;
-    
 }    
 
 
@@ -33,31 +32,4 @@ ul.social-icons{
 
 .fab{
     color:red ;
-}
-
-@media (max-width: 768px){
-    h1{
-        font-size: 84px;
-    }
-
-    ul.nav-bar{
-        font-size: 14px;
-        list-style-type: none;
-        
-    }
-}
-
-@media (max-width: 414px){
-    h1{
-        font-size: 48px;
-    }
-
-    ul.nav-bar{
-        font-size: 14px;
-        list-style-type: none;
-        
-    }
-    p{
-        font-size: medium;
-    }
 }
