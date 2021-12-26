@@ -21,15 +21,18 @@ h1{
 ul.nav-bar{
     color:red;
     font-size: 200%;
+    
 }    
-
-
-ul.social-icons{
-  list-style-type: none;
-  margin: 20px 20px;
-  
-}
-
 .fab{
     color:red ;
+}
+@media (max-width: 768px){
+    h1{
+        font-size: 84px;
+    }
+    ul.nav-bar{
+        font-size: 14px;
+        list-style-type: none;
+        
+    }
 }
