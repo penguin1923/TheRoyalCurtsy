@@ -8,6 +8,11 @@
         ". footer .";
 }
 h2{
+    grid-area: h2;
+}
+nav{
+    grid-area: nav;
+}
 footer{
     grid-area: footer;
 }
@@ -32,9 +37,11 @@ p{
         display:grid;
         grid-template-columns:  5fr;
         grid-template-areas: 
-            "h2"
+            "h2"            
             "nav"
             "nav"
             " ."
             "footer";
     }
+    
+}
