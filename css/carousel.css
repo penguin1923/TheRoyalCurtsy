@@ -19,7 +19,7 @@ body {
 
 .carousel {
     transform-style: preserve-3d;
-    animation: rot 20s ease-out infinite;
+    animation: rot 40s ease-out infinite;
     align-items: center;
     justify-content: center;
     margin: auto;
