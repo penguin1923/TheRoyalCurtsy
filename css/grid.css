@@ -1,0 +1,50 @@
+#main-grid{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+        "h2 h2 h2 "
+        "nav section section"
+        "nav section section"
+        ". footer .";
+}
+section{
+    grid-area: section;
+}
+h2{
+    grid-area: h2;
+}
+nav{
+    grid-area: nav;
+}
+footer{
+    grid-area: footer;
+}
+p{
+    font-size: 24px;
+}
+@media (max-width: 768px){
+    #main-grid{
+        display:grid;
+        grid-template-columns:  5fr;
+        grid-template-areas: 
+            "h2"
+            "nav"
+            "nav"
+            " ."
+            "footer";
+    }
+    
+}
+@media (max-width: 414px){
+    #main-grid{
+        display:grid;
+        grid-template-columns:  5fr;
+        grid-template-areas: 
+            "h2"            
+            "nav"
+            "nav"
+            " ."
+            "footer";
+    }
+    
+}
